@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Goal Sticker — Support</title>
+<meta name="description" content="Support and help for Goal Sticker, an iOS app for soft deadlines that harden by themselves.">
+<style>
+  :root {
+    --charcoal: #2A2D32;
+    --slate: #656666;
+    --mist: #E6E8EA;
+    --coconut: #F9F9F9;
+    --indigo: #6442F0;
+    --green: #00A24F;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 24px 96px;
+    background: var(--coconut);
+    color: var(--charcoal);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  header { padding: 64px 0 40px; }
+  .mark {
+    width: 72px; height: 72px; border-radius: 18px;
+    background: #fff; border: 1px solid var(--mist);
+    display: flex; align-items: flex-end; justify-content: center;
+    overflow: hidden; margin-bottom: 24px;
+  }
+  .blob { width: 58px; height: 44px; border-radius: 29px 29px 0 0; background: var(--green); position: relative; }
+  .eye { position: absolute; top: 12px; width: 15px; height: 15px; border-radius: 50%; background: #fff; }
+  .eye.l { left: 11px; }
+  .eye.r { left: 29px; border-radius: 45%; }
+  .eye::after { content: ""; position: absolute; top: 4px; left: 4px; width: 7px; height: 7px; border-radius: 50%; background: #000; }
+  h1 { font-size: 34px; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 8px; }
+  .tagline { color: var(--slate); font-size: 19px; margin: 0; }
+  h2 { font-size: 22px; letter-spacing: -0.01em; margin: 48px 0 12px; }
+  h3 { font-size: 17px; margin: 28px 0 6px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--indigo); }
+  .card {
+    background: #fff; border: 1px solid var(--mist); border-radius: 20px;
+    padding: 24px 28px; margin: 24px 0;
+  }
+  .card p:last-child { margin-bottom: 0; }
+  .email { font-size: 19px; font-weight: 600; }
+  footer {
+    margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--mist);
+    color: var(--slate); font-size: 15px;
+  }
+  footer a { color: var(--slate); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="mark"><div class="blob"><span class="eye l"></span><span class="eye r"></span></div></div>
+    <h1>Goal Sticker</h1>
+    <p class="tagline">Support</p>
+  </header>
+
+  <p>Goal Sticker is an iPhone app for the things that matter but aren't urgent yet — the dental checkup,
+  the subscription about to renew, the visa that expires next spring. You set a due date, and the app gets
+  gradually louder as it approaches, instead of pinging you once at the wrong moment.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Get in touch</h2>
+    <p>Questions, bugs, or feature requests — email us and we'll reply, usually within a few days.</p>
+    <p class="email"><a href="mailto:support@littlehelper.app">support@littlehelper.app</a></p>
+  </div>
+
+  <h2>Frequently asked</h2>
+
+  <h3>What's the difference between a Fixed and a Flex goal?</h3>
+  <p>A <strong>Fixed</strong> goal has a real deadline — if the date passes and you haven't completed it,
+  it's marked as missed. A <strong>Flex</strong> goal doesn't expire: the due date quietly moves forward
+  with today, and it keeps reminding you until you mark it done. Use Fixed for things with a hard cutoff,
+  Flex for things you genuinely intend to do but can't pin to a date.</p>
+
+  <h3>What are the Green, Amber and Red zones?</h3>
+  <p>They're the three phases of a goal's life. <strong>Green</strong> is quiet — the deadline is far off
+  and you hear nothing. <strong>Amber</strong> is a gentle heads-up as it comes into range.
+  <strong>Red</strong> is the urgent stretch just before and including the due date, where reminders come
+  more often. You choose how many days before the deadline each zone starts.</p>
+
+  <h3>I'm not getting notifications.</h3>
+  <p>Check <em>iOS Settings → Goal Sticker → Notifications</em> and make sure Allow Notifications is on.
+  If a goal is still in its Green zone it won't notify you yet — that's by design. You can also check the
+  goal's own reminder settings to confirm it isn't set to silent.</p>
+
+  <h3>Can I use Goal Sticker on more than one device?</h3>
+  <p>Not currently. Everything is stored on your iPhone, with no account and no server, so goals don't sync
+  between devices.</p>
+
+  <h3>What does the paid upgrade include?</h3>
+  <p>A single one-time purchase — not a subscription. It unlocks unlimited goals (the free version holds
+  three at a time), editable reminder zone lengths, custom reminder counts, and Goal History.</p>
+
+  <h3>I paid but the app still shows the free version.</h3>
+  <p>Open the upgrade screen and tap <em>Restore Purchases</em>. Purchases are tied to your Apple Account,
+  so restoring works on any device signed in with the same one. If that doesn't resolve it, email us.</p>
+
+  <h3>How do I delete my data?</h3>
+  <p>Delete the app. Everything Goal Sticker knows lives on your device, so removing the app removes all of
+  it. There's nothing stored anywhere else for us to delete.</p>
+
+  <h3>Does Goal Sticker collect any data about me?</h3>
+  <p>No. There are no accounts, no analytics, and no network requests. See our
+  <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+    <p>© 2026 Goal Sticker</p>
+  </footer>
+
+</div>
+</body>
+</html>
