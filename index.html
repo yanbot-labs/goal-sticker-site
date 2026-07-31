@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Goal Sticker — Support</title>
-<meta name="description" content="Support and help for Goal Sticker, an iOS app for soft deadlines that harden by themselves.">
+<meta name="description" content="Goal Sticker is an iPhone app for important things that don't fit a calendar or a to-do list.">
 <style>
   :root {
     --charcoal: #2A2D32;
@@ -27,15 +27,9 @@
   header { padding: 64px 0 40px; }
   .mark {
     width: 72px; height: 72px; border-radius: 18px;
-    background: #fff; border: 1px solid var(--mist);
-    display: flex; align-items: flex-end; justify-content: center;
     overflow: hidden; margin-bottom: 24px;
   }
-  .blob { width: 58px; height: 44px; border-radius: 29px 29px 0 0; background: var(--green); position: relative; }
-  .eye { position: absolute; top: 12px; width: 15px; height: 15px; border-radius: 50%; background: #fff; }
-  .eye.l { left: 11px; }
-  .eye.r { left: 29px; border-radius: 45%; }
-  .eye::after { content: ""; position: absolute; top: 4px; left: 4px; width: 7px; height: 7px; border-radius: 50%; background: #000; }
+  .mark img { width: 100%; height: 100%; display: block; }
   h1 { font-size: 34px; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 8px; }
   .tagline { color: var(--slate); font-size: 19px; margin: 0; }
   h2 { font-size: 22px; letter-spacing: -0.01em; margin: 48px 0 12px; }
@@ -59,14 +53,23 @@
 <div class="wrap">
 
   <header>
-    <div class="mark"><div class="blob"><span class="eye l"></span><span class="eye r"></span></div></div>
+    <div class="mark"><img src="app-icon.png" alt="Goal Sticker"></div>
     <h1>Goal Sticker</h1>
     <p class="tagline">Support</p>
   </header>
 
-  <p>Goal Sticker is an iPhone app for the things that matter but aren't urgent yet — the dental checkup,
-  the subscription about to renew, the visa that expires next spring. You set a due date, and the app gets
-  gradually louder as it approaches, instead of pinging you once at the wrong moment.</p>
+  <p>Goal Sticker is an iPhone app for important things that don't fit a calendar or a to-do list.</p>
+
+  <p>Calendars and to-do lists work best when you know exactly when to act. But many goals don't have a
+  perfect reminder date. Set it too early and you'll ignore it. Set it too late and you've missed your
+  chance.</p>
+
+  <p>Goal Sticker focuses on the goal, not just the reminder. Instead of relying on one perfect date, it
+  keeps goals visible until they're done and makes reminders more noticeable as the right time
+  approaches.</p>
+
+  <p>Perfect for things like dental checkups, reviewing subscriptions before they renew, buying birthday
+  gifts, and other goals without a fixed action date.</p>
 
   <div class="card">
     <h2 style="margin-top:0">Get in touch</h2>
